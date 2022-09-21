@@ -29,7 +29,7 @@ $(info OBJS= $(OBJS))
 modtcp_test: $(OBJS)
 	@echo "55555 xxxxx"
 	$(CC)   $(OBJS)  -o bams_test -ldl -rdynamic
-	-cp bams_test  /mnt/hgfs/app/Tcu_lib/bams_test;
+	-cp bams_test  /mnt/hgfs/Tcu_lib/bams_test;
 	-@echo ' '
 #-------------------------------------------------------------------
 

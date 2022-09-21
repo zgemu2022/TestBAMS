@@ -7,8 +7,8 @@
 #include <stdlib.h>
 
 #include "bams_main.h"
-#define LIB_MODTCP_PATH "/usr/lib/libbams.so"
-PARA_BAMS para_bams={2,{9600,9600},{2,2}};
+#define LIB_MODTCP_PATH "/usr/lib/libbams_rtu.so"
+PARA_BAMS para_bams={1,{9600,9600},{2,2},{6,0}};
 typedef int (*init_fun)(void*);
 void bams_Init(PARA_BAMS* para)
 {	
